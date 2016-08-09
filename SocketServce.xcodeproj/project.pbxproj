@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED68713DA39B9024AE80E56 /* Pods_SocketServce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9A928D7B6196774232B44D /* Pods_SocketServce.framework */; };
 		1F76F1BB1D56E1A9005D6018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76F1BA1D56E1A9005D6018 /* AppDelegate.swift */; };
 		1F76F1BD1D56E1A9005D6018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76F1BC1D56E1A9005D6018 /* ViewController.swift */; };
 		1F76F1C01D56E1A9005D6018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F76F1BE1D56E1A9005D6018 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		1F76F1C51D56E1A9005D6018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F76F1C31D56E1A9005D6018 /* LaunchScreen.storyboard */; };
 		1F76F1D01D56E1A9005D6018 /* SocketServceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76F1CF1D56E1A9005D6018 /* SocketServceTests.swift */; };
 		1F76F1DB1D56E1A9005D6018 /* SocketServceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76F1DA1D56E1A9005D6018 /* SocketServceUITests.swift */; };
+		1F76F1E91D56E23F005D6018 /* SocketServceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76F1E81D56E23F005D6018 /* SocketServceManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1131A5F3A40B0856D4B6D15D /* Pods-SocketServce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketServce.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketServce/Pods-SocketServce.release.xcconfig"; sourceTree = "<group>"; };
 		1F76F1B71D56E1A9005D6018 /* SocketServce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketServce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F76F1BA1D56E1A9005D6018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F76F1BC1D56E1A9005D6018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		1F76F1D61D56E1A9005D6018 /* SocketServceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketServceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F76F1DA1D56E1A9005D6018 /* SocketServceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketServceUITests.swift; sourceTree = "<group>"; };
 		1F76F1DC1D56E1A9005D6018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F76F1E81D56E23F005D6018 /* SocketServceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketServceManger.swift; sourceTree = "<group>"; };
+		6415D4D5F888770D63756AED /* Pods-SocketServce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketServce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketServce/Pods-SocketServce.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9A928D7B6196774232B44D /* Pods_SocketServce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketServce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED68713DA39B9024AE80E56 /* Pods_SocketServce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				1F76F1CE1D56E1A9005D6018 /* SocketServceTests */,
 				1F76F1D91D56E1A9005D6018 /* SocketServceUITests */,
 				1F76F1B81D56E1A9005D6018 /* Products */,
+				A6B3617762F4B1E82726E785 /* Pods */,
+				6AF618E529AE7820AF95E08C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +112,7 @@
 				1F76F1C11D56E1A9005D6018 /* Assets.xcassets */,
 				1F76F1C31D56E1A9005D6018 /* LaunchScreen.storyboard */,
 				1F76F1C61D56E1A9005D6018 /* Info.plist */,
+				1F76F1E81D56E23F005D6018 /* SocketServceManger.swift */,
 			);
 			path = SocketServce;
 			sourceTree = "<group>";
@@ -125,6 +135,23 @@
 			path = SocketServceUITests;
 			sourceTree = "<group>";
 		};
+		6AF618E529AE7820AF95E08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9A928D7B6196774232B44D /* Pods_SocketServce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B3617762F4B1E82726E785 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6415D4D5F888770D63756AED /* Pods-SocketServce.debug.xcconfig */,
+				1131A5F3A40B0856D4B6D15D /* Pods-SocketServce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F76F1DF1D56E1A9005D6018 /* Build configuration list for PBXNativeTarget "SocketServce" */;
 			buildPhases = (
+				C3917374979EC90D2B30E625 /* [CP] Check Pods Manifest.lock */,
 				1F76F1B31D56E1A9005D6018 /* Sources */,
 				1F76F1B41D56E1A9005D6018 /* Frameworks */,
 				1F76F1B51D56E1A9005D6018 /* Resources */,
+				3E6AEAA182A710817AFB17F5 /* [CP] Embed Pods Frameworks */,
+				D28332ECF94B78D2D24DA964 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +281,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E6AEAA182A710817AFB17F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketServce/Pods-SocketServce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3917374979EC90D2B30E625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D28332ECF94B78D2D24DA964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketServce/Pods-SocketServce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F76F1B31D56E1A9005D6018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +336,7 @@
 			files = (
 				1F76F1BD1D56E1A9005D6018 /* ViewController.swift in Sources */,
 				1F76F1BB1D56E1A9005D6018 /* AppDelegate.swift in Sources */,
+				1F76F1E91D56E23F005D6018 /* SocketServceManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +478,7 @@
 		};
 		1F76F1E01D56E1A9005D6018 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6415D4D5F888770D63756AED /* Pods-SocketServce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocketServce/Info.plist;
@@ -410,6 +490,7 @@
 		};
 		1F76F1E11D56E1A9005D6018 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1131A5F3A40B0856D4B6D15D /* Pods-SocketServce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocketServce/Info.plist;
@@ -484,6 +565,7 @@
 				1F76F1E11D56E1A9005D6018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F76F1E21D56E1A9005D6018 /* Build configuration list for PBXNativeTarget "SocketServceTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				1F76F1E41D56E1A9005D6018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F76F1E51D56E1A9005D6018 /* Build configuration list for PBXNativeTarget "SocketServceUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				1F76F1E71D56E1A9005D6018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
